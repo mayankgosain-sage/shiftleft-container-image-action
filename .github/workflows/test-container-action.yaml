@@ -16,7 +16,7 @@ jobs:
       - name: Scan Container Image
         uses: ./
         with:
-          api_token: ${{ secrets.ORCA_SECURITY_API_TOKEN }}
+          api_token: ${{ secrets.MG_TEST_GITHUBACTION }}
           project_key: "default"
           image: "alpine:3"
           format: "json"
